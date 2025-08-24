@@ -1,4 +1,5 @@
-# Alpha Signal Generation and Liquid Asset Prediction (ML)
+# Alpha Liquidity Forecasting with Machine Learning Models
+
 
 End-to-end project to predict **daily liquidity-adjusted returns** of liquid assets (e.g., NIFTY 50/S&P 500 constituents)
 from **fundamentals + market microstructure + technical signals**. It includes feature engineering, dimensionality
