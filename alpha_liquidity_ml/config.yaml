@@ -1,0 +1,27 @@
+seed: 42
+target: ret_fwd_1d
+horizon_days: 1
+train_start: 2018-01-01
+val_start: 2022-01-01
+test_start: 2024-01-01
+min_history_days: 60
+lookback_days: 30
+features:
+  - close
+  - volume
+  - hl_spread
+  - vwap_proxy
+  - mom_5
+  - mom_10
+  - mom_20
+  - vol_10
+  - vol_20
+  - rsi_14
+  - atr_14
+  - obv
+  - turnover
+  - illiq_amihud
+  - depth_imbalance
+  - pe_ratio
+  - pb_ratio
+  - div_yield

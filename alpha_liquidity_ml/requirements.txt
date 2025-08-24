@@ -1,0 +1,18 @@
+pandas
+numpy
+scikit-learn
+xgboost
+optuna
+yfinance
+ta
+matplotlib
+scipy
+pmdarima
+
+# Deep learning (optional for LSTM/TFT). If install fails, skip those models.
+torch
+torchvision
+pytorch-lightning
+# For TFT via darts (optional). If this fails on your platform, skip TFT.
+u8darts[torch]
+darts
